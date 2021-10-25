@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+        body{
+            font-family: 'Segoe UI', Georgia;
+        }
+
+/** HEADER **/
+#header-nav {
+    background-color: #acd9f3;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  .navbar-brand { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #000000;
+    font-size: bolder;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+
+  h1{
+      text-align: center;
+  }
+
+  h2{
+      text-align: center;
+  }
+
+  .row .col-lg-4{
+    border: 2px solid #000;
+    display: grid;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+    text-align: center;
+  }
+  .navbar-nav a{
+    text-align: center;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+      text-align: center;
+    }
+    .navbar-nav a{
+      text-align: center;
+    }
+}
+
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+      text-align: center;
+    }
+    .navbar-nav a{
+      text-align: center;
+    }
+}
+
+  /********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+      text-align: center;
+    }
+    .navbar-nav a{
+      text-align: center;
+    }
+  }
+  
+
+@media (max-width: 479px) {
+    /* Header */
+    .navbar-brand { /* Restaurant name */
+      padding-top: 5px;
+      font-size: 6vw;
+      text-align: center;
+    }
+    .navbar-nav a{
+      text-align: center;
+    }
+}
